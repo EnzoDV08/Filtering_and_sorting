@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Plant Shop</title>
+
+    <!-- Style Sheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+
+    <!-- ------------------------------------------------------------------------------------------------ -->
+    <!-- Nav Bar -->
+
+    <nav class="navbar fixed-top">
+      <div class="container">
+        
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img src="assets/Logo.svg" alt="Logo" height="32">
+        </a>
+
+        <!-- Nav Items -->
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="browse.html">Browse</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="wishlist.html">Wishlist</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+    <!-- ------------------------------------------------------------------------------------------------ -->
+    <!-- Carousel -->
+
+    <div id="carouselExample" class="carousel carousel-dark slide">
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row full-height">
+              <div class="col align-self-center">
+                <h1>Elevate Your Environment with Everlasting Beauty</h1>
+                <button class="mt-4">Browse Plants</button>
+              </div>
+              <div class="col align-self-end">
+                <img src="assets/hero-image.png" class="hero-image" id="hero-image" alt="Hero Image">
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Slide 2 (with accordion) -->
+        <div class="carousel-item full-height">
+          <div class="container">
+            <div class="row full-height">
+              <div class="col align-self-center">
+                <h1>Evegreen knows what to do, just ask!</h1>
+                <button class="mt-4">Browse Plants</button>
+    
+                <!-- Accordion -->
+                <div class="accordion mt-4" id="accordionExample">
+                  <!-- Section 1 -->
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        More About Us
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        The Evergreen is a comprehensive online platform dedicated to catering to plant enthusiasts and green-thumbed individuals, offering a vast array of meticulously curated plant species, ranging from lush indoor houseplants to vibrant outdoor botanical wonders, with detailed descriptions and care guides to help both novice and experienced gardeners nurture and cultivate these natural treasures into flourishing, vibrant ecosystems; furthermore, the website goes beyond merely being an e-commerce platform, as it fosters an engaging community of plant lovers through informative blog articles, interactive forums, and expert-led webinars, providing a space for plant enthusiasts to connect, share their experiences, seek advice, and exchange tips on gardening, while also offering a personalized plant recommendation tool that factors in various environmental conditions, preferences, and skill levels to suggest the most suitable plants, thus empowering individuals to create their green sanctuaries and embark on an enriching journey of discovering the beauty, serenity, and eco-consciousness that nurturing plants can bring to their lives.
+                      </div>
+                    </div>
+                  </div>
+    
+                  <!-- Section 2 -->
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Contact Us
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        How can whe help you<br>
+                        Sell:073 662 4471 <br>
+                        Email: 231244@virtualwindow.co.za
+                      </div>
+                    </div>
+                  </div>
+    
+                  <!-- Section 3 -->
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Info
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        
+The Evergeen website is designed with user-friendliness and accessibility in mind, featuring an intuitive and visually appealing interface that allows visitors to effortlessly navigate through the extensive plant catalog, easily filter and search for specific plant types, and conveniently access detailed product information, including botanical names, common names, care requirements, growth patterns, and ideal environmental conditions for each plant species.
+
+The website prioritizes sustainability and eco-friendliness, collaborating with reputable nurseries and growers who follow ethical and environmentally responsible practices, ensuring that the plants offered are propagated and sourced responsibly, and promoting the use of eco-friendly packaging materials to minimize the carbon footprint of deliveries.
+
+To ensure that customers have a seamless shopping experience, the website offers secure and convenient payment options, reliable shipping services, and a hassle-free return and exchange policy, all backed by excellent customer support to address any inquiries or issues promptly.
+
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Accordion -->
+              </div>
+              <div class="col align-self-end">
+                <img src="assets/hero-image.png" class="hero-image" id="hero-image" alt="Hero Image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Carousel Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="scripts/main.js"></script>
+
+  </body>
+</html>
